@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2E8C671E890C1B002B1F1E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E8C661E890C1B002B1F1E /* LoginVC.swift */; };
+		8A2E8C691E890C29002B1F1E /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E8C681E890C29002B1F1E /* Math.swift */; };
 		8AF0E9661E83554F0048E505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0E9651E83554F0048E505 /* AppDelegate.swift */; };
 		8AF0E9681E83554F0048E505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0E9671E83554F0048E505 /* ViewController.swift */; };
 		8AF0E96B1E83554F0048E505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0E9691E83554F0048E505 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A2E8C661E890C1B002B1F1E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8A2E8C681E890C29002B1F1E /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		8AF0E9621E83554F0048E505 /* ZingMp3-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZingMp3-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF0E9651E83554F0048E505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF0E9671E83554F0048E505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				8AF0E96C1E83554F0048E505 /* Assets.xcassets */,
 				8AF0E96E1E83554F0048E505 /* LaunchScreen.storyboard */,
 				8AF0E9711E83554F0048E505 /* Info.plist */,
+				8A2E8C661E890C1B002B1F1E /* LoginVC.swift */,
+				8A2E8C681E890C29002B1F1E /* Math.swift */,
 			);
 			path = "ZingMp3-Animation";
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				8AF0E9681E83554F0048E505 /* ViewController.swift in Sources */,
 				8AF0E9661E83554F0048E505 /* AppDelegate.swift in Sources */,
+				8A2E8C671E890C1B002B1F1E /* LoginVC.swift in Sources */,
+				8A2E8C691E890C29002B1F1E /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +520,7 @@
 				8AF0E98C1E8355500048E505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AF0E98D1E8355500048E505 /* Build configuration list for PBXNativeTarget "ZingMp3-AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +529,7 @@
 				8AF0E98F1E8355500048E505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AF0E9901E8355500048E505 /* Build configuration list for PBXNativeTarget "ZingMp3-AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +538,7 @@
 				8AF0E9921E8355500048E505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

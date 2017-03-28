@@ -37,7 +37,9 @@ class ViewController: UIViewController {
                 UIView.animate(withDuration: 4, animations: { 
                     self.lbName.center = CGPoint(x: self.img.center.x, y: self.c.y)
                     self.lbName.alpha = 1
-                }, completion: nil)
+                }, completion: { (success) in
+                   self.performSegue(withIdentifier: "toLogin", sender: nil)
+                })
                 
             })
         }
